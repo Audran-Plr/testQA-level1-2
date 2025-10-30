@@ -2,8 +2,8 @@
     - Prerequisite : npm and node installed(10.9.2 and v22.14.0 worked for me)
     - Copy paste the code folder in you project
     - with terminal go in the "code" folder
-    - run command : npm install --legacy-peer-deps 
-        --legacy-peer-deps option required so version conflicts are handled properly
+    - run command : npm install --legacy-peer-deps
+        - legacy-peer-deps is a required option so version conflicts are handled properly
     - run command : npm run cy:run:headed
         OR 
     - run command : npm run cy:open
