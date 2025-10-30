@@ -59,7 +59,7 @@
                - UserStory or IntermediateFolder/ (depending on the tool used to handle the test base or .feature files size this one can be useful)
                  - features/
                     - testcases.feature
-        What I love about this structure :
+     - What I love about this structure :
             - product oriented, if the organization of the company changes, the test folder will not change
             - anyone can understand it and update it
             - this tree will almost be a documentation by itself which is a good point for maintainability
