@@ -60,10 +60,10 @@
                  - features/
                     - testcases.feature
      - What I love about this structure :
-            - product oriented, if the organization of the company changes, the test folder will not change
-            - anyone can understand it and update it
-            - this tree will almost be a documentation by itself which is a good point for maintainability
-            - every new bits of the product can easily be added
+         - product oriented, if the organization of the company changes, the test folder will not change
+         - anyone can understand it and update it
+         - this tree will almost be a documentation by itself which is a good point for maintainability
+         - every new bits of the product can easily be added
 
 
 
