@@ -1,0 +1,22 @@
+{
+  "name": "test_fulll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Cypress + Cucumber setup for Fulll",
+  "author": "Audran",
+  "license": "ISC",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --e2e",
+    "cy:run:headed": "cypress run --e2e --headed"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.1.5",
+    "esbuild": "0.14.54",
+    "base64-js": "^1.5.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
