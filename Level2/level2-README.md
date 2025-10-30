@@ -43,22 +43,22 @@
 
    - **naming convention** and **tagging strategy** Gherkin and scenarios. 
         - Gherkin naming :
-            feature name : \[applicationName\] unique name of feature/User Story, no verbs
-            scenario : unique name of test case, differrent dataset will be handled through scenarios outline
+            - feature name : \[applicationName\] unique name of feature/User Story, no verbs
+            - scenario : unique name of test case, differrent dataset will be handled through scenarios outline
         - tagging : 
-            application : @APPLICATIONAME
-            chapter/squad/guild name : @chapterName @squadName or @guildName
-            criticality : @smoke @critical nothing if not critical
-            very particuliar test cases : differrent laws in country X? military grade? a very big and special need partner to whom you can't say no?
+            - application : @APPLICATIONAME
+            - chapter/squad/guild name : @chapterName @squadName or @guildName
+            - criticality : @smoke @critical nothing if not critical
+            - very particuliar test cases : differrent laws in country X? military grade? a very big and special need partner to whom you can't say no?
                 ex: @InternetExplorer7 @tablet @china @military @Amazon
 
    - test base **maintainable**
-        productName/
-            applicationName/ (name of the application under test, might happen to be the same as product, then we skip this level)
-                epicsOrInitiatives/ (huge functional blocks) 
-                    UserStory or IntermediateFolder/ (depending on the tool used to handle the test base or .feature files size this one can be useful)
-                        features/
-                            testcases.feature
+      - productName/
+          - applicationName/ (name of the application under test, might happen to be the same as product, then we skip this level)
+            - epicsOrInitiatives/ (huge functional blocks) 
+               - UserStory or IntermediateFolder/ (depending on the tool used to handle the test base or .feature files size this one can be useful)
+                 - features/
+                    - testcases.feature
         What I love about this structure :
             - product oriented, if the organization of the company changes, the test folder will not change
             - anyone can understand it and update it
